@@ -1,0 +1,17 @@
+name= Grzegorz
+surname= Kryszczuk
+username= ggrzesiek
+experience= Cloudforge since December 2025
+contact links:
+GitHub: https://github.com/GGrzesiek
+LinkedIn: @kryszczukgrzegorz= https://www.linkedin.com/in/grzegorz-kryszczuk-a30b50245/
+
+email= kryszczuk.grzegorz.job@gmail.com
+
+Cloudforge bullets:
+Projektowanie pipeline'ów CI/CD (GitHub Actions, Terraform) 
+Zarządzanie infrastrukturą
+  (ArgoCD, Prometheus, Grafana)
+Realizacja projektów wdrożeniowych symulujących komercyjne środowiska IT (Docker, Kubernetes)
+Projektowanie architektur w AWS z wysokim poziomem dostępności
+
