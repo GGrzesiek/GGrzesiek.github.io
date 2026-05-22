@@ -49,7 +49,7 @@ No build step. All library dependencies loaded via CDN.
 - **Font — body text:** System sans-serif stack (`-apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`)
 - **Nav:** Fixed top, anchor links to each section, transparent background with subtle backdrop blur
 
-The aesthetic is "terminal dark" — monospace accents, green highlights, dark surfaces, and a network particle background in the hero. Professional but unmistakably technical.
+The aesthetic is "terminal dark" — monospace accents, green highlights, dark surfaces, and a network particle background in the hero. Professional but unmistakably technical. No emojis or decorative icons anywhere — visual interest comes from interactive elements, animations, and typography.
 
 ---
 
@@ -115,7 +115,7 @@ Each category has a small monospace label above its tag row. Primary-stack tags 
 **Layout:** Equal-weight grid (2 columns on desktop, 1 on mobile).
 
 **Per card:**
-- Project name (monospace, prefixed with `📁` or folder icon)
+- Project name (monospace, prefixed with `>` — terminal arrow, no icons or emojis)
 - Short description (1–2 sentences)
 - Tech tag badges (same style as skills)
 - GitHub link button; optionally a live demo link
