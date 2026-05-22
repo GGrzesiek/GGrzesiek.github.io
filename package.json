@@ -1,0 +1,11 @@
+{
+  "name": "prof-page",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "scripts": {
+    "test": "playwright test"
+  }
+}

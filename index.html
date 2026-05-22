@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grzegorz Kryszczuk - DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav id="nav" aria-label="Primary">
+      <div class="nav-brand"><span class="mono">~/</span>ggrzesiek</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <div class="nav-overlay" role="dialog" aria-modal="true" aria-label="Navigation">
+    <button class="nav-overlay-close" aria-label="Close menu">&times;</button>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main>
+
+    <section id="hero" aria-labelledby="hero-name">
+      <div id="particles"></div>
+      <div class="hero-content">
+        <p class="hero-prompt"><span class="muted">~/portfolio $</span> <span class="accent">run --intro</span></p>
+        <p class="hero-status"><span class="muted">Initializing...</span> <span class="accent">done</span></p>
+        <h1 id="hero-name" class="hero-name">Grzegorz Kryszczuk</h1>
+        <p class="hero-role"><span id="typed"></span><span class="cursor">_</span></p>
+        <p class="hero-tagline"><span class="muted"># Building scalable infrastructure and systems that last</span></p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">./contact.sh</a>
+          <a href="assets/resume.pdf" download class="btn btn-secondary">cat resume.pdf</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <h2 id="about-heading" class="sr-only">About</h2>
+        <p class="section-label">// ABOUT_ME</p>
+        <div class="about-bio">
+          <p>I'm a DevOps and platform engineer who builds reliable, scalable infrastructure. I work with Kubernetes, Terraform, and CI/CD pipelines daily — and I reach for C when performance and precision matter at the system level.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-value">3+</span>
+            <span class="stat-label">YRS EXP</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">10+</span>
+            <span class="stat-label">PROJECTS</span>
+          </div>
+          <div class="stat">
+            <span class="stat-value">5+</span>
+            <span class="stat-label">TECHNOLOGIES</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <h2 id="skills-heading" class="sr-only">Skills</h2>
+        <p class="section-label">// SKILLS</p>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <p class="skill-category">INFRASTRUCTURE</p>
+            <div class="skill-tags">
+              <span class="tag tag--primary">Kubernetes</span>
+              <span class="tag tag--primary">Docker</span>
+              <span class="tag tag--primary">Terraform</span>
+              <span class="tag tag--primary">Ansible</span>
+              <span class="tag tag--primary">Helm</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-category">CLOUD</p>
+            <div class="skill-tags">
+              <span class="tag tag--primary">AWS</span>
+              <span class="tag tag--primary">GCP</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-category">CI/CD</p>
+            <div class="skill-tags">
+              <span class="tag tag--primary">GitLab CI</span>
+              <span class="tag tag--primary">GitHub Actions</span>
+              <span class="tag tag--primary">ArgoCD</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-category">LANGUAGES</p>
+            <div class="skill-tags">
+              <span class="tag tag--secondary">C</span>
+              <span class="tag tag--secondary">Bash</span>
+              <span class="tag tag--secondary">Python</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-category">MONITORING</p>
+            <div class="skill-tags">
+              <span class="tag tag--secondary">Prometheus</span>
+              <span class="tag tag--secondary">Grafana</span>
+              <span class="tag tag--secondary">ELK</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <h2 id="experience-heading" class="sr-only">Experience</h2>
+        <p class="section-label">// EXPERIENCE</p>
+        <div class="timeline">
+          <div class="timeline-entry timeline-entry--current">
+            <div class="timeline-node"></div>
+            <div class="timeline-content">
+              <h3 class="timeline-role">DevOps Engineer <span class="muted">@ Cloudforge</span></h3>
+              <p class="timeline-date">Dec 2025 – present</p>
+              <ul class="timeline-bullets">
+                <li>Designing CI/CD pipelines with GitHub Actions and Terraform</li>
+                <li>Managing infrastructure using ArgoCD, Prometheus, and Grafana</li>
+                <li>Implementing deployment projects simulating commercial IT environments with Docker and Kubernetes</li>
+                <li>Designing high-availability architectures on AWS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <h2 id="projects-heading" class="sr-only">Projects</h2>
+        <p class="section-label">// PROJECTS</p>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3 class="project-name"><span class="accent">&gt;</span> project-name</h3>
+            <p class="project-desc">Short description of the project and what problem it solves.</p>
+            <div class="project-tags">
+              <span class="tag tag--primary">Go</span>
+              <span class="tag tag--primary">Kubernetes</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <h3 class="project-name"><span class="accent">&gt;</span> another-project</h3>
+            <p class="project-desc">Short description of the project and what problem it solves.</p>
+            <div class="project-tags">
+              <span class="tag tag--secondary">C</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link" target="_blank" rel="noopener">GitHub ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <h2 id="contact-heading" class="sr-only">Contact</h2>
+        <p class="section-label">// CONTACT</p>
+        <div class="contact-grid">
+          <div class="contact-links">
+            <a href="https://github.com/GGrzesiek" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-label">GitHub</span>
+              <span class="contact-url">github.com/GGrzesiek ↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/grzegorz-kryszczuk-a30b50245/" class="contact-link" target="_blank" rel="noopener">
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-url">linkedin.com/in/grzegorz-kryszczuk ↗</span>
+            </a>
+            <a href="mailto:kryszczuk.grzegorz.job@gmail.com" class="contact-link">
+              <span class="contact-label">Email</span>
+              <span class="contact-url">kryszczuk.grzegorz.job@gmail.com ↗</span>
+            </a>
+          </div>
+          <form class="contact-form" action="https://formspree.io/f/mzdwgavj" method="POST">
+            <div class="form-group">
+              <label for="form-name" class="sr-only">Name</label>
+              <input id="form-name" type="text" name="full-name" placeholder="name" required class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="form-email" class="sr-only">Email</label>
+              <input id="form-email" type="email" name="email" placeholder="email" required class="form-input">
+            </div>
+            <div class="form-group">
+              <label for="form-message" class="sr-only">Message</label>
+              <textarea id="form-message" name="message" placeholder="message" required class="form-textarea" rows="4"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">send →</button>
+            <p class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p><span class="mono">~/portfolio $</span> <span class="muted">exit 0</span></p>
+    </div>
+  </footer>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/tsparticles@2.12.0/tsparticles.bundle.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</body>
+</html>
