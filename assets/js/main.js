@@ -21,6 +21,9 @@ tsParticles.load('particles', {
     modes: { grab: { distance: 150, links: { opacity: 0.25 } } },
   },
   detectRetina: true,
+  fpsLimit: 60,
+  pauseOnBlur: true,
+  pauseOnOutsideViewport: true,
 });
 
 // ============================================================
